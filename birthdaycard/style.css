@@ -1,0 +1,68 @@
+body{
+    background:linear-gradient(rgb(79, 155, 236),pink);
+    color: white;
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+  
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 1px black ;
+}
+#date{
+    padding:3px 5px;
+    background-color: pink;
+    border-radius: 5%;
+    margin-top:3px;
+
+}
+#age{
+   padding:3px 5px;
+    background-color: pink;
+    border-radius: 5%; 
+    margin-top: 30px;
+}
+#pp{
+    border: 5px solid pink;
+    width: 150px;
+    border-radius:100%;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gifi{
+    margin:0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://cdn.vectorstock.com/i/750p/22/90/red-ribbon-gift-box-with-bow-vector-15812290.avif");
+    border:10px solid red;
+    border-radius:10%;
+    background-size: cover;
+}
+#e1:hover{
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnp4dTJycTJqbm5xcWZpNXVzdWYwcmZ0YjU4bGNra3Z1dGl0bzBsMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HJibfnd7xqk5hAMD4v/giphy.gif");
+}
+#e2:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E5aDBpaWV3MGt0NDZoYTB4M2o2YTNydmp0dGprdW8wbGEwbHc0ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5VKbvrjxpVJCM/giphy.gif");
+}
+#e3:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHZwdGFnbnU1NzZnY2hzOXAyMTF6cGpyc2kzcjFlN2NvdnRmMm56NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZE7PwZ7w2BN3trcox3/giphy.gif");
+    
+}
+#e4:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm90ZmdleHB3cHB2MjFzaGxrcGRxZzVoYmV0dTB4ZHdkMnlrdGh0dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XpbjrI4vQIMj5NOFaZ/giphy.gif");
+}
+#e5{
+    height: 200px;
+    border-radius: 20px;
+}
+#e5:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YTNrOGw5ZmoycTA2NXBhYTNkbWN3M2o1czZnZDM5dm1mZTI0dDdycyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/x70o5dGVWROGQ/giphy.gif");
+}
+#footer{
+    margin-top: 20px;
+}
+a{
+    color: white;
+}

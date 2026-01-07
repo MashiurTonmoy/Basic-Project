@@ -1,0 +1,47 @@
+#contain{
+    background-color: rgb(7, 7, 73);
+    color:white;
+    width: 400px;
+    margin:0 auto;
+    padding: 1px 50px 30px 50px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+body{
+   background-image: url("https://images.unsplash.com/photo-1546519638-68e109498ffc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFza2V0YmFsbHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+}
+.score{
+    background-color: black;
+    width: 100px;
+    height:80px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(215, 54, 54);
+    font-family: "digit";
+}
+.btn{
+   background-color: rgb(7, 7, 73);
+   color: white;
+   border: 1px solid white;
+   height: 30px;
+   font-family: digit;
+   border-radius: 3px;
+}
+@font-face{
+    font-family: "digit";
+    src: url("Digital Dismay.otf");
+}
+#btn7{
+    margin-top: 100px;
+    background-color: rgb(255, 240, 70);
+    color: rgb(14, 14, 14);
+    border: 1px solid rgb(244, 243, 243);
+    border-radius: 3px;
+}
