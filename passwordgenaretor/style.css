@@ -1,0 +1,70 @@
+body{
+    background-color: blanchedalmond;
+    color: white;
+}
+#con{
+    background-color: rgba(13, 21, 56, 0.945);
+    padding: 30px 30px 60px 30px;
+    margin: 0 auto;
+    width :320px;
+    border:3px solid white;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-weight: bold;
+}
+#sl{
+    color: rgb(25, 198, 114);
+    margin-top: -30px;
+}
+#inp{
+    display: flex;
+    gap:2px
+}
+#input{
+    width:35px;
+    height:20px;
+    margin-top:18px;
+    border: 2px solid rgba(0, 0, 0, 0.713);
+    border-radius: 5px;
+}
+#btn{
+    background-color: rgb(25, 198, 114) ;
+    padding: 7px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+#btn:hover{
+    border: 2px solid  rgba(255, 255, 247, 0.744);
+}
+#line{
+    border:2px solid rgb(13, 21, 56);
+    margin-top: 20px;
+}
+.gp{
+    height: 30px;
+    width: 150px;
+    background-color:rgba(63, 80, 153, 0.474) ;
+    border: 0px;
+    border-radius: 5px;
+     color: rgb(25, 198, 114);
+}
+.gp:hover{
+    border: 2px solid  rgb(25, 198, 114);
+}
+#genpass{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.instr{
+    margin-top: 20px;
+}
+#char{
+    margin-top: -18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

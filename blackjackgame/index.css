@@ -1,0 +1,28 @@
+h1{
+    color: goldenrod;
+}
+body{
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/green-felt-background-texture-poker-casino-table_434420-1498.jpg");
+    color:white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#message-el{
+    font-family: italic;
+}
+.btn{
+    width:150px;
+    background-color: goldenrod;
+    color:#016f32;
+    border: 0px solid;
+    border-radius: 2px;
+    padding:3px 0px ;
+    font-weight: bold;
+}
+.btn:hover{
+    border:3px solid rgba(15, 133, 172, 0.862);
+}
+#newcard-btn{
+    margin-top:5px;
+}
