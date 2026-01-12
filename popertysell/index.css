@@ -1,0 +1,32 @@
+.card{
+    margin: 0 auto;
+    background:linear-gradient(rgba(239, 250, 141, 0.815),rgb(230, 159, 38));
+    width:400px;
+    
+    padding: 20px 20px 20px 20px;
+    display:flex;
+    justify-content: space-around;
+    font-size: smaller;
+    border:2px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+body{
+    background-color: rgb(255, 212, 156);
+}
+#container{
+    text-align: center;
+    font-size: larger;
+    background:linear-gradient(rgb(107, 120, 235),rgb(30, 35, 29));
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+    margin: 0 auto;
+    border:3px solid white
+}
+img{
+    width:150px;
+    height:100%;
+}
